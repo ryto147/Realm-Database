@@ -36,7 +36,7 @@ public class RealmCobaHalper {
                 // tampil log
                 Log.e(TAG, "" + error.getMessage());
 
-                // tutup realmm
+                // tutup realm
                 realm.close();
             }
         });
